@@ -63,11 +63,11 @@
 
 // int[] array = new int[count];
 
-// for (int i = array.Length - 1; i >= 0; i--)
-// {
-//     array[i] = num % 10;
-//     num /= 10;
-// }
+for (int i = array.Length - 1; i >= 0; i--)
+{
+    array[i] = num % 10;
+    num /= 10;
+}
 
 // PrintArray(array);
 
