@@ -28,51 +28,51 @@
 // 44 5 78 -> 78
 // 22 3 9 -> 22 -->
 
-// Console.Write("Введите первое число: ");
-// int numA = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите первое число: ");
+int numA = Convert.ToInt32(Console.ReadLine());
 
-// Console.Write("Введите второе число: ");
-// int numB = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите второе число: ");
+int numB = Convert.ToInt32(Console.ReadLine());
 
-// Console.Write("Введите третье число: ");
-// int numC = Convert.ToInt32(Console.ReadLine());
-// int max = 0;
+Console.Write("Введите третье число: ");
+int numC = Convert.ToInt32(Console.ReadLine());
+int max = 0;
 
-// if ( numA > max ) max = numA;
-// if ( numB > max ) max = numB;
-// if ( numC > max ) max = numC;
+if ( numA > max ) max = numA;
+if ( numB > max ) max = numB;
+if ( numC > max ) max = numC;
 
-// Console.Write("max = ");
-// Console.WriteLine(max);
+Console.Write("max = ");
+Console.WriteLine(max);
 
 // <!-- Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
 // 4 -> да
 // -3 -> нет
 // 7 -> нет -->
 
-// Console.Write("Введите целое число: ");
-// int numA = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите целое число: ");
+int numA = Convert.ToInt32(Console.ReadLine());
 
-// if ( numA % 2 == 0 )
-// {
-//     Console.WriteLine("Число чётное");
-// }
-// else
-// {
-//     Console.WriteLine("Число нечётное");
-// }
+if ( numA % 2 == 0 )
+{
+    Console.WriteLine("Число чётное");
+}
+else
+{
+    Console.WriteLine("Число нечётное");
+}
 
 // <!-- Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
 // 5 -> 2, 4
 // 8 -> 2, 4, 6, 8 -->
 
-// Console.Write("Введите целое число: ");
-// int numA = Convert.ToInt32(Console.ReadLine());
-// int numB = 2;
+Console.Write("Введите целое число: ");
+int numA = Convert.ToInt32(Console.ReadLine());
+int numB = 2;
 
-//    while(numB <= numA )
-//       {
-//         Console.Write(numB + " ");
-//         numB = numB + 2;
-//       }
+   while(numB <= numA )
+      {
+        Console.Write(numB + " ");
+        numB = numB + 2;
+      }
    

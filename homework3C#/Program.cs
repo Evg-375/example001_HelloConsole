@@ -5,17 +5,17 @@
 // // 12821 -> да
 // // 23432 -> да
 
-// int InputNum(string message)
+// long InputNum(string message)
 // {
 //     Console.WriteLine(message);
-//     int num = int.Parse(Console.ReadLine()!);
+//     long num = long.Parse(Console.ReadLine()!);
 //     return num;
 
 // }
 
-// int Spread(int num)
+// long Spread(long num)
 // {
-//     int res = 0;
+//     long res = 0;
 //     while (num > 0)
 //     {
 //         res = res * 10 + num % 10;
@@ -25,8 +25,8 @@
 // }
 
 
-// int number = InputNum("Введите пятизначное число");
-// int spreadnumber = Spread(number);
+// long number = InputNum("Введите пятизначное число");
+// long spreadnumber = Spread(number);
 
 // if(number == spreadnumber)
 // {

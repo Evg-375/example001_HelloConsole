@@ -31,38 +31,38 @@
 // 32679 -> 6
 
 
-int InputNum(string message)
-{
-    Console.WriteLine(message);
-    int num = Convert.ToInt32(Console.ReadLine()!);
-    return num;
-}
+// int InputNum(string message)
+// {
+//     Console.WriteLine(message);
+//     int num = Convert.ToInt32(Console.ReadLine()!);
+//     return num;
+// }
 
-bool ThreeNumb(int number)
-{
-    if (number < 100)
-    {
-        Console.WriteLine("третьей цифры нет");
-        return false;
-    }
-    return true;
-}
+// bool ThreeNumb(int number)
+// {
+//     if (number < 100)
+//     {
+//         Console.WriteLine("третьей цифры нет");
+//         return false;
+//     }
+//     return true;
+// }
 
-int Trim(int num)
-{
-    while (num > 999)
-    {
-         num = num / 10;;
-    }
-    return num % 10;
-}
+// int Trim(int num)
+// {
+//     while (num > 999)
+//     {
+//          num = num / 10;;
+//     }
+//     return num % 10;
+// }
 
 
-int num = InputNum("Введите целое число");
-if (ThreeNumb(num))
-{
-    Console.WriteLine(Trim(num));
-}
+// int num = InputNum("Введите целое число");
+// if (ThreeNumb(num))
+// {
+//     Console.WriteLine(Trim(num));
+// }
 
 
 

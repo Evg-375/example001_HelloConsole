@@ -1,51 +1,51 @@
 ﻿
-int MaxDigit (int number)
-{
-    int first = number / 10;
-    int second = number % 10;
-    if (first > second)
-        return first;
-    else
-        return second;
-}
+// int MaxDigit (int number)
+// {
+//     int first = number / 10;
+//     int second = number % 10;
+//     if (first > second)
+//         return first;
+//     else
+//         return second;
+// }
 
-int RandomNum()
-{
-    int num = new Random().Next(10, 100);
-    Console.WriteLine($"Сгенерировалось число: {num}");
-    return num;
-}
+// int RandomNum()
+// {
+//     int num = new Random().Next(10, 100);
+//     Console.WriteLine($"Сгенерировалось число: {num}");
+//     return num;
+// }
 
-int rand = RandomNum();
-int maxDigit = MaxDigit(rand);
-Console.WriteLine($"Максимальная цифра в числе {rand} = {maxDigit}");
-
-
+// int rand = RandomNum();
+// int maxDigit = MaxDigit(rand);
+// Console.WriteLine($"Максимальная цифра в числе {rand} = {maxDigit}");
 
 
-int RandomNum()
-{
-    int num = new Random().Next(10, 1000);
-    Console.WriteLine($"Сгенерировалось число: {num}");
-    return num;
-}
 
 
-123 -> 13
-123 % 10 = 3 
-123 / 100 = 1
-10* 1 + 3 = 13
+// int RandomNum()
+// {
+//     int num = new Random().Next(10, 1000);
+//     Console.WriteLine($"Сгенерировалось число: {num}");
+//     return num;
+// }
 
-int DelSecondDigit(int num)
-{
-    int first = num / 100;
-    int second = num % 10;
-    int twoDigits = first *10 + second;
-    return twoDigits;
-}
-int number = RandomNum();
-int result = DelSecondDigit(number);
-Console.WriteLine($"Получилось: {result}");
+
+// 123 -> 13
+// 123 % 10 = 3 
+// 123 / 100 = 1
+// 10* 1 + 3 = 13
+
+// int DelSecondDigit(int num)
+// {
+//     int first = num / 100;
+//     int second = num % 10;
+//     int twoDigits = first *10 + second;
+//     return twoDigits;
+// }
+// int number = RandomNum();
+// int result = DelSecondDigit(number);
+// Console.WriteLine($"Получилось: {result}");
 
 
 
@@ -92,25 +92,25 @@ Division (number1, number2);
 // 161 -> да
 
 
-int InputNum(string message)
-{
-    Console.WriteLine(message);
-    int num = int.Parse(Console.ReadLine()!);
-    return num;
-}
+// int InputNum(string message)
+// {
+//     Console.WriteLine(message);
+//     int num = int.Parse(Console.ReadLine()!);
+//     return num;
+// }
 
-string Multiplicity(int number)
-{
-    string result = "no";
-    if (number % 7 == 0 && number % 23 == 0)
+// string Multiplicity(int number)
+// {
+//     string result = "no";
+//     if (number % 7 == 0 && number % 23 == 0)
     
-    result = "Yes";
+//     result = "Yes";
     
-    return result;
-}
+//     return result;
+// }
 
-int num = InputNum("Введите целое число");
-string result = Multiplicity(num);
-Console.WriteLine(result);
+// int num = InputNum("Введите целое число");
+// string result = Multiplicity(num);
+// Console.WriteLine(result);
 
 

@@ -26,16 +26,20 @@ int IndexOf(int[] Collection, int find)
 {
     int count = Collection.Length;
     int index = 0;
-    int position = 0;
+    int position = -1;
 
     while (index < count)
     {
-        if(Collection[index] == find);
+        if(Collection[index] == find)
         {
            position = index;
+           
         }
+
     }
+       return position;
 }
+
 
 int[] array = new int[10];
 
