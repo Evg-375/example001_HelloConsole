@@ -119,48 +119,48 @@
 // [3.22, 4.2, 1.15, 77.15, 65.2] => 77.15 - 1.15 = 76
 
 
-int InputNum(string message)
-{
-    Console.Write(message);
-    return Convert.ToInt32(Console.ReadLine()!);
-}
+// int InputNum(string message)
+// {
+//     Console.Write(message);
+//     return Convert.ToInt32(Console.ReadLine()!);
+// }
 
 
-int size = InputNum("Введите количество элементов массива: ");
-double[] array = new double[size];
+// int size = InputNum("Введите количество элементов массива: ");
+// double[] array = new double[size];
 
 
-void Create(int size)
-{
-    Random rnd = new Random();
-    for (int i = 0; i < array.Length; i++)
-    {
-        array[i] = rnd.NextDouble() * 100;
-        Console.Write($"{array[i]:F3}  ");
-    }
-    Console.WriteLine();
-}
+// void Create(int size)
+// {
+//     Random rnd = new Random();
+//     for (int i = 0; i < array.Length; i++)
+//     {
+//         array[i] = rnd.NextDouble() * 100;
+//         Console.Write($"{array[i]:F3}  ");
+//     }
+//     Console.WriteLine();
+// }
 
 
-double Result(double[] array)
-{
-    double min = array[0];
-    double max = array[0];
-    int i = 0;
-    while (i < array.Length)
-    {
-        if (max < array[i])
-            max = array[i];
-        if (min > array[i])
-            min = array[i];
-        i++;
-    }
-    return max - min;
+// double Result(double[] array)
+// {
+//     double min = array[0];
+//     double max = array[0];
+//     int i = 0;
+//     while (i < array.Length)
+//     {
+//         if (max < array[i])
+//             max = array[i];
+//         if (min > array[i])
+//             min = array[i];
+//         i++;
+//     }
+//     return max - min;
 
-}
+// }
 
 
-Create(size);
+// Create(size);
 
-double qwe = Result(array);
-Console.Write($"Разница между максимальным и минимальным элементов массива {qwe:F3} ");
+// double qwe = Result(array);
+// Console.Write($"Разница между максимальным и минимальным элементов массива {qwe:F3} ");
